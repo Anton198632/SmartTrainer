@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_more"
+          android:title="more"
+          android:icon="@drawable/ic_more"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom">
+            <menu>
+
+                <item
+                        android:id="@+id/action_likes"
+                        android:icon="@drawable/ic_like_with_padding"
+                        android:title="Избранное"
+                        app:showAsAction="ifRoom"
+                />
+                <item
+                        android:id="@+id/action_info"
+                        android:icon="@drawable/ic_info_with_padding"
+                         android:title="Информация"
+                        app:showAsAction="ifRoom"/>
+            </menu>
+
+    </item>
+
+
+</menu>

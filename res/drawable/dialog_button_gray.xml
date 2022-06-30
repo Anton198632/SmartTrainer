@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="6dp" />
+            <solid android:color="#05000000"/>
+            <corners android:radius="@dimen/dimen_32"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="4dp" />
+            <solid android:color="#06000000"/>
+            <corners android:radius="@dimen/dimen_32"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="2dp" />
+            <solid android:color="#07000000"/>
+            <corners android:radius="@dimen/dimen_32"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="2dp" android:left="2dp" android:right="2dp"/>
+            <solid android:color="#20000000"/>
+            <corners android:radius="@dimen/dimen_32"/>
+        </shape>
+    </item>
+
+    <item android:bottom="2dp"  android:id="@+id/dialog_button_id">
+        <shape android:shape="rectangle">
+            <size android:width="150dp" android:height="@dimen/dimen_40"/>
+            <corners android:radius="@dimen/dimen_32"/>
+        </shape>
+    </item>
+</layer-list>

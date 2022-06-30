@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/gr0">
+        <item
+                android:id="@+id/exercises_catalog"
+                android:icon="@drawable/ic_menu_book"
+                android:title="@string/exercises_catalog"/>
+    </group>
+    <group android:id="@+id/gr1">
+
+        <item android:id="@+id/training"
+              android:icon="@drawable/ic_menu_train"
+              android:title="@string/training"/>
+        <item android:id="@+id/geo_location"
+              android:title="@string/geo_location_text"
+              android:icon="@drawable/ic_run_black"/>
+        <item android:id="@+id/timer"
+              android:icon="@drawable/ic_timer_sec"
+              android:title="@string/timer_text"/>
+
+    </group>
+    <group android:id="@+id/gr2">
+
+        <item android:id="@+id/nutrition_calc"
+              android:icon="@drawable/ic_menu_meat"
+              android:title="@string/nutrition_calc"/>
+
+        <!--        <item android:id="@+id/movie"-->
+        <!--              android:title="@string/movie_text"-->
+        <!--              android:icon="@drawable/ic_video_camera"/>-->
+
+
+    </group>
+    <group android:id="@+id/gr3">
+
+        <item android:id="@+id/app_share_item"
+              android:title="@string/app_share"
+              android:icon="@drawable/ic_app_share"
+        />
+
+    </group>
+
+
+</menu>

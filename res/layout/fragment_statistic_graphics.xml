@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_marginBottom="@dimen/dimen_8"
+             android:id="@+id/fragment_graphics"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                       android:layout_height="match_parent">
+        <!--Прогрессбар ожидания -->
+        <include layout="@layout/wait_progress_bar"/>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content"
+                      app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+        >
+
+
+            <androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:fillViewport="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                              android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                            android:id="@+id/card_view0"
+                            android:layout_marginTop="@dimen/dimen_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_8">
+                        <TextView
+                                android:layout_marginStart="@dimen/dimen_16"
+                                android:layout_marginEnd="@dimen/dimen_16"
+                                android:textColor="@color/colorDarkText"
+                                android:textSize="@dimen/dimen_16"
+                                android:id="@+id/graph_title0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"/>
+                        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                                      android:layout_marginTop="@dimen/dimen_16"
+                                                                      android:id="@+id/bar_chart0"
+                                                                      android:layout_marginStart="@dimen/dimen_16"
+                                                                      android:layout_marginEnd="@dimen/dimen_16"
+                                                                      android:layout_height="300dp"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                            android:id="@+id/card_view1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_8">
+                        <TextView
+                                android:layout_marginStart="@dimen/dimen_16"
+                                android:layout_marginEnd="@dimen/dimen_16"
+                                android:id="@+id/graph_title1"
+                                android:layout_marginTop="@dimen/dimen_16"
+                                android:textColor="@color/colorDarkText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/text_medium"
+                                android:textAlignment="center"/>
+                        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                                      android:layout_marginStart="@dimen/dimen_16"
+                                                                      android:layout_marginEnd="@dimen/dimen_16"
+                                                                      android:layout_marginTop="@dimen/dimen_16"
+                                                                      android:id="@+id/bar_chart1"
+                                                                      android:layout_height="300dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                            android:id="@+id/card_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/graph_title2"
+                                android:layout_marginTop="@dimen/dimen_16"
+                                android:textColor="@color/colorDarkText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/dimen_16"
+                                android:layout_marginStart="@dimen/dimen_16"
+                                android:layout_marginEnd="@dimen/dimen_16"
+                                android:textAlignment="center"/>
+                        <com.github.mikephil.charting.charts.BarChart android:layout_width="match_parent"
+                                                                      android:id="@+id/bar_chart2"
+                                                                      android:layout_marginTop="@dimen/dimen_16"
+                                                                      android:layout_marginStart="@dimen/dimen_16"
+                                                                      android:layout_marginEnd="@dimen/dimen_16"
+                                                                      android:layout_height="300dp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.recyclerview.widget.RecyclerView android:layout_width="wrap_content"
+                                                               android:layout_height="wrap_content"
+
+                                                               android:id="@+id/line_chart_recycler_view"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorLiteText</item>
+    </style>
+
+
+    <!-- ________________  ExercisesActivity _______________________ -->
+    <!-- Стиль для развенутого appBar   -->
+    <style name="AppbarExpand" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <!-- Стиль для свернутого appBar   -->
+    <style name="AppbarCollaps" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+
+    <!--  _________________________________________________________  -->
+
+    <!-- _________________ NavigationView _________________________  -->
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- __________________ Food  ________________________________   -->
+    <style name="DialogFoodStyle" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">#8BC34A</item>
+        <item name="android:textColorPrimary">#009688</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="MyNumberPicker">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:colorAccent">@android:color/white</item>
+    </style>
+
+    <!-- __________________ MyWorkouts _______________________________   -->
+    <style name="DialogWorkout" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">#3F51B5</item>
+        <item name="android:textColorPrimary">#673AB7</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!--  StatisticFragment  -->
+    <style name="AppTheme.Progress">
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+
+
+    <!-- _______________ ToolBar _________________ -->
+    <style name="ToolBarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorLiteText</item>
+    </style>
+
+    <!-- __________ MapActivity_________________   -->
+    <style name="MenuFabStyle">
+        <item name="android:background">@color/colorPrimary</item>
+
+    </style>
+
+
+</resources>

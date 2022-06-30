@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/fragment_navigation_workout_id"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@drawable/exercises_fragment_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+
+                android:src="@drawable/background_workout_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.162"
+                android:id="@+id/imageWorkoutList" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintBottom_toTopOf="@+id/imageMyWorkout"/>
+        <TextView
+                android:id="@+id/workout_list_text"
+                android:text="@string/workout_list_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLiteText"
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="@+id/imageWorkoutList"
+                app:layout_constraintBottom_toBottomOf="@+id/imageWorkoutList"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintVertical_bias="0.798" app:layout_constraintHorizontal_bias="0.743"/>
+
+        <ImageView
+                android:src="@drawable/background_my_workouts"
+                android:id="@+id/imageMyWorkout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/imageWorkoutList"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintEnd_toEndOf="@+id/imageWorkoutList"
+                app:layout_constraintStart_toStartOf="@+id/imageWorkoutList"
+                app:layout_constraintHorizontal_bias="0.5"/>
+
+        <TextView
+                android:id="@+id/workout_my_text"
+                android:text="@string/workout_my_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLiteText"
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="@+id/imageMyWorkout"
+                app:layout_constraintBottom_toBottomOf="@+id/imageMyWorkout"
+                app:layout_constraintStart_toStartOf="@+id/imageMyWorkout"
+                app:layout_constraintEnd_toEndOf="@+id/imageMyWorkout" app:layout_constraintHorizontal_bias="0.182"
+                app:layout_constraintVertical_bias="0.823"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

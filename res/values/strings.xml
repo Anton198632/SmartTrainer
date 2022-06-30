@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Умный тренер</string>
+    <string name="app_logo">application logo</string>
+    <string name="descr_img_button">img button</string>
+
+    <!--    UnzipActivity-->
+    <string name="unzip_data" translatable="false">Распаковка данных</string>
+    <string name="percent" translatable="false">0 %</string>
+
+    <!--    MainActivity  -->
+    <string name="empty_name" translatable="false">Введите ваше имя</string>
+
+
+    <!--   http://77.232.143.148:3223/images/ -->
+    <!--   http://192.168.1.4:2323/images/ -->
+    <string name="server_url" translatable="false">http://192.168.1.4:2323/images/</string>
+
+
+    <string name="copyright" translatable="false">Copyright © 2021 Smart Trainer</string>
+
+    <string name="input_name" translatable="true">Ваше имя</string>
+    <string name="next" translatable="true">Далее</string>
+
+    <!--    Navigation menu -->
+    <string name="exercises_catalog" translatable="true">Каталог упражений</string>
+    <string name="training" translatable="true">Силовая тренировка</string>
+    <string name="nutrition_calc" translatable="true">Калькулятор питания</string>
+    <string name="timer_text" translatable="false">Секундомер</string>
+    <string name="geo_location_text" translatable="false">Беговая тренировка</string>
+    <string name="movie_text" translatable="false">Видеокадр</string>
+    <string name="app_share" translatable="false">Рассказать о приложении</string>
+
+    <!--  App_Share  -->
+    <string name="app_share_title" translatable="false">Приложение "Умный Тренер" в Google Play</string>
+    <string name="app_share_link" translatable="false">https://play.google.com/store/apps/details?id=</string>
+    <bool name="app_share_visible" translatable="false">true</bool>
+
+    <!-- exercises frame  -->
+    <string name="man" translatable="false">Для мужчин</string>
+    <string name="woman" translatable="false">Для девушек</string>
+
+    <!--  workout frame  -->
+    <string name="workout_list_text" translatable="false">Готовые тренировки</string>
+    <string name="workout_my_text" translatable="false">Мои тренировки</string>
+
+    <!-- timer frame   -->
+    <string name="timer_null" translatable="false">00:00:00.000</string>
+    <string name="timer_start" translatable="false">Старт</string>
+    <string name="timer_stop" translatable="false">Стоп</string>
+    <string name="timer_period" translatable="false">Интервал</string>
+    <string name="timer_clear" translatable="false">Сброс</string>
+
+    <!--    exercises activity-->
+    <string name="exercise_actionbar_header" translatable="false">Каталог упражнений</string>
+    <string name="exercise_search" translatable="false">Поиск</string>
+    <string name="exercise_header" translatable="false">Разгибание одной рукой на трицепс в наклоне</string>
+    <string name="exercise_description" translatable="false">Группа мышц: Трицепсы\nТип упражнения:
+        Изолирующее\nДополнительные мышцы: Плечи\nВид упражнения: Силовое\nОборудование: Гантели\nУровень сложности:
+        Начинающий
+    </string>
+
+    <string name="exercise_full_description" translatable="false">
+        - Начните упражнение так же, как жим узким хватом лежа на скамье. Лягте на горизонтальную скамью, держа штангу
+        над собой в вытянутых руках, локти направлены внутрь. Вместо того чтобы держать руки перпендикулярно туловищу,
+        расположите их так, чтобы гриф находился над верхней частью груди. Это будет вашим исходным положением.\n
+        - На вдохе опустите штангу вниз, сгибая руки в локтях. Посередине движения вам нужно будет переместить штангу
+        немного ниже. Это у вас получится, если вы сделаете движение предплечьями, перемещая их ближе к ногам на
+        несколько (2-3) сантиметров. Подсказка: при выполнении этого движения, держите локти согнутыми.\n
+        - На выдохе выжмите штангу вверх, выпрямляя руки (как при жиме узким хватом лежа).\n
+        - Верните штангу в исходное положение и начните упражнение заново.\n
+        - Выполните необходимое количество повторений.\n
+        - Начните упражнение так же, как жим узким хватом лежа на скамье. Лягте на горизонтальную скамью, держа штангу
+        над собой в вытянутых руках, локти направлены внутрь. Вместо того чтобы держать руки перпендикулярно туловищу,
+        расположите их так, чтобы гриф находился над верхней частью груди. Это будет вашим исходным положением.\n
+        - На вдохе опустите штангу вниз, сгибая руки в локтях. Посередине движения вам нужно будет переместить штангу
+        немного ниже. Это у вас получится, если вы сделаете движение предплечьями, перемещая их ближе к ногам на
+        несколько (2-3) сантиметров. Подсказка: при выполнении этого движения, держите локти согнутыми.\n
+        - На выдохе выжмите штангу вверх, выпрямляя руки (как при жиме узким хватом лежа).\n
+        - Верните штангу в исходное положение и начните упражнение заново.\n
+        - Выполните необходимое количество повторений.
+    </string>
+    <string name="in_favorites" translatable="false">В избранное</string>
+    <string name="out_favorites" translatable="false">Убрать из избранного</string>
+    <string name="info_about_site" translatable="false">Огромное спасибо владельцу сайта dailyfit.ru за предоставленную
+        информацию
+    </string>
+    <string name="site_visit" translatable="false">Перейти на сайт</string>
+
+    <!--  FoodCalcActivity  -->
+    <string name="table_header" translatable="false">Стол с продуктами</string>
+    <string name="foods_header" translatable="false">Продукты</string>
+    <string name="proteins" translatable="false">Бел</string>
+    <string name="fasts" translatable="false">Жир</string>
+    <string name="carbohydrates" translatable="false">Угл</string>
+    <string name="calories" translatable="false">Ккал</string>
+    <string name="dialog_add_message_one" translatable="false">Выбран продукт</string>
+    <string name="dialog_add_message_two" translatable="false">.\nДобавить его на стол?</string>
+    <string name="food_dialog_negative" translatable="false">Отмена</string>
+    <string name="food_dialog_positive" translatable="false">Добавить</string>
+
+    <!--  WorkoutActivity  -->
+    <string name="workout_name" translatable="false">Название тренировки</string>
+    <string name="workout_description" translatable="false">Описание тренировки</string>
+    <string name="add_new_workout" translatable="false">Создайте новую тренировку</string>
+    <string name="replace_name_workout" translatable="false">Изменение названия тренировки</string>
+    <string name="add" translatable="false">Добавить</string>
+    <string name="cancel" translatable="false">Отмена</string>
+    <string name="replace" translatable="false">Изменить</string>
+    <string name="confirm_workout_delete_text" translatable="false">Вы действительно хотите удалить тренировку</string>
+
+    <!--  WorkoutExercisesActivity  -->
+    <string name="timer_null_we" translatable="false">00:00:00</string>
+    <string name="invoke" translatable="false">Выполнено</string>
+    <string name="uninvoke" translatable="false">Отменить</string>
+    <string name="message_dialog_stop" translatable="false">Вы желаете завершить тренировку? Сохранить результаты в
+        БД?
+    </string>
+
+    <!--    <string name="title_activity_fullscreen_main">FullscreenMainActivity</string>-->
+    <!--    <string name="dummy_button">Dummy Button</string>-->
+    <!--    <string name="dummy_content">DUMMY\nCONTENT</string>-->
+
+    <!-- StatisticActivity    -->
+    <string name="graph" translatable="false">Графики</string>
+    <string name="table" translatable="false">Таблицы</string>
+    <string name="list" translatable="false">Список</string>
+    <string name="graphCountHeader" translatable="false">Количество выполнений упражнений</string>
+    <string name="count_repeat" translatable="false">Количество повторений</string>
+    <string name="count_value" translatable="false">Общее количество выполнений (количество*значение)</string>
+    <string name="average_value" translatable="false">Среднее значение (вес)</string>
+    <string name="exercise_name" translatable="false">Название упражнения</string>
+    <string name="pre_workout" translatable="false">Предыдущая тренировка</string>
+    <string name="current_workout" translatable="false">Текущая тренировка</string>
+    <string name="set" translatable="false">Подход</string>
+    <string name="interval" translatable="false">Интервал</string>
+
+    <!--  MapActivity  -->
+    <string name="enable_gps" translatable="false">Включите определение местоположения</string>
+    <string name="my_location_dont_find" translatable="false">Местоположение не определено</string>
+    <string name="map" translatable="false">Карта</string>
+    <string name="latitude" translatable="false">Широта: </string>
+    <string name="longitude" translatable="false">Долгота: </string>
+    <string name="geo_provider" translatable="false">Источник координат: </string>
+
+    <!--  GeoStatisticActivity  -->
+    <string name="description_geo_speed" translatable="false">Изменение скорости в пути</string>
+    <string name="description_geo_time" translatable="false">Время в пути</string>
+    <string name="current_geo_workout" translatable="false">Текущая тренировка</string>
+    <string name="pre_geo_workout" translatable="false">Предыдущая тренировка</string>
+
+    <!--AdMob-->
+    <string name="ad_id" translatable="false">ca-app-pub-3160711292937820/3967635131</string>
+                                          <!--test: ca-app-pub-3940256099942544/6300978111        -->
+                                          <!--ca-app-pub-3160711292937820/3967635131    -->
+    <bool name="ad_use" translatable="false">true</bool>
+
+    <!--MovieActivity-->
+    <string name="rec_start" translatable="false">Записать</string>
+    <string name="rec_header" translatable="false">Видеокадр</string>
+    <string name="video_concat" translatable="false">Монтаж видео</string>
+    <string name="video_concat_message" translatable="false">Смонтировать видео из Ваших записей и поделиться в социальных сетях?</string>
+    <string name="vcm_ok" translatable="false">Да</string>
+    <string name="vcm_cancel" translatable="false">Отмена</string>
+
+</resources>

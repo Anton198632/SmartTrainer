@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_marginTop="@dimen/dimen_8"
+
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:id="@+id/statistic_exercise_name">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/exercise_im"
+                                                          android:layout_width="@dimen/dimen_32"
+                                                          android:layout_height="@dimen/dimen_32"
+                                                          android:layout_margin="@dimen/dimen_16"/>
+            <TextView
+                    android:id="@+id/graph_title_exercise_name"
+                    android:textColor="@color/colorDarkText"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/exercise_name"
+                    android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        <HorizontalScrollView
+                android:id="@+id/horizontal_scroll"
+                android:paddingBottom="@dimen/dimen_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <LinearLayout android:background="@android:color/white" android:orientation="horizontal"
+                          android:layout_width="wrap_content"
+                          android:paddingLeft="@dimen/dimen_16"
+                          android:paddingRight="@dimen/dimen_16"
+                          android:layout_marginBottom="@dimen/dimen_16"
+                          android:layout_height="wrap_content" android:id="@+id/def">
+                <com.github.mikephil.charting.charts.LineChart android:layout_width="200dp"
+                                                               android:id="@+id/line_chart_count"
+                                                               android:layout_margin="@dimen/dimen_16"
+                                                               android:layout_height="200dp"/>
+                <com.github.mikephil.charting.charts.LineChart android:layout_width="200dp"
+                                                               android:id="@+id/line_chart_value"
+                                                               android:layout_margin="@dimen/dimen_16"
+                                                               android:layout_height="200dp"/>
+                <com.github.mikephil.charting.charts.LineChart android:layout_width="200dp"
+                                                               android:id="@+id/line_chart_all"
+                                                               android:layout_margin="@dimen/dimen_16"
+                                                               android:layout_height="200dp"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

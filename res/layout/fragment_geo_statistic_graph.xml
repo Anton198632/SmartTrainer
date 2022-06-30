@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                       android:layout_height="match_parent">
+        <include layout="@layout/wait_progress_bar"/>
+        <ScrollView android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:orientation="vertical">
+                <com.github.mikephil.charting.charts.LineChart android:layout_width="match_parent"
+                                                               android:id="@+id/line_chart_geo_speed"
+                                                               android:layout_margin="@dimen/dimen_16"
+                                                               android:layout_height="300dp"/>
+                <com.github.mikephil.charting.charts.LineChart android:layout_width="match_parent"
+                                                               android:id="@+id/line_chart_geo_time"
+                                                               android:layout_margin="@dimen/dimen_16"
+                                                               android:layout_height="300dp"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

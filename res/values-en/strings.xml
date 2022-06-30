@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SmartTrainer</string>
+    <string name="app_logo">application logo</string>
+    <string name="descr_img_button">img button</string>
+
+    <string name="input_name">Your name</string>
+    <string name="next">Next</string>
+
+    <!--    Navigation menu -->
+    <string name="exercises_catalog">Exercises list</string>
+    <string name="training" translatable="true">Training</string>
+    <string name="nutrition_calc" translatable="true">Nutrition calc</string>
+
+</resources>

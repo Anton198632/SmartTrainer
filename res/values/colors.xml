@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1240AB</color>
+    <color name="colorPrimaryDark">#06266F</color>
+    <color name="colorAccent">#B8B8B8</color>
+
+    <color name="colorMain">#1240AB</color>
+    <color name="colorSecond">#6C8CD5</color>
+    <color name="colorDarkText">#000000</color>
+    <color name="colorLiteText">#FFFFFF</color>
+    <color name="colorLiteTextAlpha">#60FFFFFF</color>
+
+    <color name="colorTextDescription">#999898</color>
+    <color name="colorTextDescriptionLite">#E9E7E7</color>
+
+    <color name="colorShadowText">#20000000</color>
+
+    <color name="colorFoodPrimary">#DEFFC4</color>
+    <color name="colorFoodPrimaryDark">#8BC34A</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="mapTableColor">#668BC34A</color>
+</resources>

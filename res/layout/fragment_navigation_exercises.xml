@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/fragment_navigation_exercises_id"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@drawable/exercises_fragment_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+
+                android:src="@drawable/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintVertical_bias="0.162"
+                android:id="@+id/imageMen" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintBottom_toTopOf="@+id/imageGirl"/>
+        <TextView
+                android:id="@+id/man_text"
+                android:text="@string/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLiteText"
+                android:textSize="24sp"
+                app:layout_constraintTop_toTopOf="@+id/imageMen"
+                app:layout_constraintBottom_toBottomOf="@+id/imageMen" app:layout_constraintVertical_bias="0.8"
+                app:layout_constraintStart_toStartOf="@+id/imageMen" app:layout_constraintEnd_toEndOf="@+id/imageMen"
+                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.9"/>
+
+        <ImageView
+                android:src="@drawable/girl"
+                android:id="@+id/imageGirl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_16"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@+id/imageMen"
+                android:layout_marginTop="@dimen/dimen_16" app:layout_constraintTop_toBottomOf="@+id/imageMen"
+                app:layout_constraintVertical_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageMen" app:layout_constraintHorizontal_bias="0.5"
+        />
+
+        <TextView
+                android:id="@+id/woman_text"
+                android:text="@string/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLiteText"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="@+id/imageGirl"
+                app:layout_constraintTop_toTopOf="@+id/imageGirl"
+                app:layout_constraintBottom_toBottomOf="@+id/imageGirl"
+                app:layout_constraintEnd_toEndOf="@+id/imageGirl" app:layout_constraintHorizontal_bias="0.15"
+                android:layout_marginEnd="8dp" app:layout_constraintVertical_bias="0.8"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
